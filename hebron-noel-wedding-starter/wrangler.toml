@@ -1,0 +1,9 @@
+name = "hebron-noel-wedding"
+pages_build_output_dir = "./out"
+compatibility_date = "2026-10-14"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hebron-noel-rsvps"
+database_id = "REPLACE_WITH_YOUR_CLOUDFLARE_D1_DATABASE_ID"
+migrations_dir = "migrations"
