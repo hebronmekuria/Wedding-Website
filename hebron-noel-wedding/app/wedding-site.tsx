@@ -57,16 +57,47 @@ export default function WeddingSite() {
       </nav>
 
       <section className="hero" id="home">
-        <div className="hero-image" role="img" aria-label="Romantic wedding landscape placeholder" />
-        <div className="hero-wash" />
-        <div className="hero-content">
-          <p className="eyebrow light">WITH FULL HEARTS & GREAT JOY</p>
-          <p className="save-label">Please save the date for the wedding of</p>
-          <h1>Hebron <em>&</em><br />Noel</h1>
-          <div className="gold-rule"><span>✦</span></div>
-          <p className="hero-date">SATURDAY <span>·</span> MAY 29, 2027</p>
-          <p className="hero-location">Addis Ababa, Ethiopia</p>
-          <a href="#details" className="hero-button">Discover the details <span>↓</span></a>
+        <div className="hero-backdrop" role="img" aria-label="Elegant historic wedding venue and garden placeholder" />
+        <div className="hero-layout">
+          <article className="invitation-card">
+            <div className="invitation-photo">
+              <div className="invitation-photo-shade" />
+              <p className="eyebrow light">PLEASE SAVE THE DATE</p>
+              <h1>Hebron <em>&</em><br />Noel</h1>
+              <div className="gold-rule"><span>✦</span></div>
+              <p className="hero-date">29 MAY 2027</p>
+              <p className="hero-location">Addis Ababa, Ethiopia</p>
+            </div>
+            <div className="paper-tear" />
+            <div className="invitation-paper">
+              <p className="eyebrow">WITH JOY IN OUR HEARTS</p>
+              <h2>Wedding<br /><em>Invitation</em></h2>
+              <p>We have been waiting for the moment to celebrate the beginning of our forever with the people we love most.</p>
+              <span className="flower-mark">✿</span>
+              <a href="#details" className="text-link">THE WEDDING DETAILS ↓</a>
+            </div>
+            <div className="invitation-foot">A DAY TO REMEMBER · 2027</div>
+          </article>
+          <div className="mobile-preview-column">
+            <article className="mini-page dress-preview">
+              <div className="phone-status"><span>9:41</span><span>● ● ▰</span></div>
+              <span className="flower-corner">✿</span>
+              <p className="eyebrow">A NOTE ON ATTIRE</p>
+              <h2>Dress <em>code</em></h2>
+              <p className="mini-copy">An elegant celebration calls for your favorite occasion wear.</p>
+              <div className="palette-dots"><i/><i/><i/><i/><i/></div>
+              <p className="mini-copy">Our palette is inspired by warm creams, soft florals, burgundy, and timeless gold.</p>
+              <a href="#faq" className="mini-link">STYLE NOTES</a>
+            </article>
+            <article className="mini-page program-preview">
+              <div className="phone-status"><span>9:41</span><span>● ● ▰</span></div>
+              <p className="eyebrow">THE CELEBRATION</p>
+              <h2>Wedding<br /><em>program</em></h2>
+              <ul><li><span>Time to come</span><span>Guest arrival</span></li><li><span>To be announced</span><span>Ceremony</span></li><li><span>To be announced</span><span>Celebration</span></li></ul>
+              <div className="program-photo" />
+              <a href="#travel" className="mini-link">PLAN YOUR VISIT ↗</a>
+            </article>
+          </div>
         </div>
         <div className="hero-side-note">A NEW CHAPTER · 2027</div>
       </section>
